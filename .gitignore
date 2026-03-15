@@ -88,5 +88,8 @@ temp/
 /uv.lock
 
 # Specific to project structure
-notebooks/*
+# notebooks/*  <-- Removed this to allow notebook uploads
 !notebooks/.gitkeep
+*.ipynb
+!notebooks/p2p_prototype.ipynb
+!notebooks/deep_agent_prototype.ipynb
