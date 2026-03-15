@@ -9,6 +9,7 @@ dependencies = [
     "instructor>=1.14.5",
     "ipykernel>=7.2.0",
     "langchain>=1.2.12",
+    "langchain-google-genai>=4.2.1",
     "langgraph>=1.1.2",
     "matplotlib>=3.10.8",
     "notebook>=7.5.5",
