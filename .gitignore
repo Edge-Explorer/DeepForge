@@ -1,0 +1,92 @@
+# IDEs and Editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+*.tmp
+*.bak
+*.orig
+
+# Environment
+*.env
+.env
+.env.*
+.env.local
+.env.production
+.env.staging
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pem
+*.p12
+*.pfx
+*.jks
+credentials
+secrets
+secrets/
+credentials/
+.aws/
+service-account*.json
+*.key
+*.crt
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+parts/
+sdist/
+var/
+*.log
+*.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build artifacts
+*.lock
+*.py[cod]
+*$py.class
+
+# Data
+data/*
+!data/.gitkeep
+
+# Experiments
+experiments/*
+!experiments/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package managers
+/uv.lock
+
+# Specific to project structure
+notebooks/*
+!notebooks/.gitkeep
