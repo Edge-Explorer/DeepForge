@@ -1,7 +1,7 @@
 import os
 import arxiv
 import fitz
-from langchain_tavily import TavilySearchResults
+from langchain_tavily import TavilySearch
 from langchain_core.tools import tool
 from langchain_experimental.utilities import PythonREPL
 
@@ -39,7 +39,7 @@ def read_pdf_content(file_path: str) -> str:
         return f"Error reading PDF: {str(e)}"
 
 # 4. Web Search Tool
-web_search = TavilySearchResults(k=3)
+web_search = TavilySearch(max_results=3)
 
 # 5. Executing Python Code Tool
 @tool
