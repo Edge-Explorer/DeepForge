@@ -1,10 +1,9 @@
-import os
 from dotenv import load_dotenv
+load_dotenv() # Load environment variables before any other imports that might use them
+
+import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from src.graph import create_pipeline
-
-# 1. Setup Environment
-load_dotenv()
 
 # 2. Initialize LLM
 llm = ChatGoogleGenerativeAI(

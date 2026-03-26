@@ -1,7 +1,7 @@
 import os
 import arxiv
 import fitz
-from langchain_community.tools.tavily_search import TavilySearchResults
+from langchain_tavily import TavilySearchResults
 from langchain_core.tools import tool
 from langchain_experimental.utilities import PythonREPL
 
